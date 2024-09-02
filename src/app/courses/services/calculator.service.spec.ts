@@ -26,7 +26,7 @@ describe('CalculatorService', () => {
             ]
         })
 
-         calculator = TestBed.get(CalculatorService);
+         calculator = TestBed.inject(CalculatorService);
 
     });
 
